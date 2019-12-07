@@ -5,7 +5,7 @@ import { GiftedChat } from "react-native-gifted-chat";
 import Fire from "../Fire";
 
 import _ from 'lodash';
-
+// to ignore warnigs from android console.
 YellowBox.ignoreWarnings(['Setting a timer']);
 const _console = _.clone(console);
 console.warn = message => {
