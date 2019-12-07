@@ -25,7 +25,7 @@ export default class LoginScreen extends React.Component {
                     <Text style={styles.header}>Username</Text>
                     <TextInput
                         style={styles.input}
-                        placeholder="DesignIntoCode"
+                        placeholder="E.g ndu ifeanyi"
                         onChangeText={name => {
                             this.setState({ name });
                         }}
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
         width: 500,
         height: 500,
         borderRadius: 500 / 2,
-        backgroundColor: "#FFF",
+        backgroundColor: '#635E67',
         position: "absolute",
         left: -120,
         top: -20
@@ -59,18 +59,17 @@ const styles = StyleSheet.create({
     header: {
         fontWeight: "800",
         fontSize: 30,
-        color: "#514E5A",
+        color: "#fff",
         marginTop: 32
     },
     input: {
         marginTop: 32,
         height: 50,
-        borderWidth: StyleSheet.hairlineWidth,
-        borderColor: "#BAB7C3",
-        borderRadius: 30,
+        borderWidth: 1,
+        borderColor: "#fff",
         paddingHorizontal: 16,
-        color: "#514E5A",
-        fontWeight: "600"
+        fontWeight: "600",
+        color: '#fff'
     },
     continue: {
         width: 70,
